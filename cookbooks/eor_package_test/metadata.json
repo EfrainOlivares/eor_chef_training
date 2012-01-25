@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "rs_utils": ">= 0.0.0"
+  },
+  "name": "eor_package_test",
+  "maintainer_email": "efrain@rightscale.com",
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "maintainer": "RightScale",
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "eor_package_test::setup_eor_package_test": "Testing out package installation"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures eor_package_test",
+  "providing": {
+  }
+}
