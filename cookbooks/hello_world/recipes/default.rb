@@ -8,4 +8,13 @@
 #
 
 log "Hello World! modified 2:44pm"
-log "Adding another line to verify mod, commit, push, refresh, run loop"
+log "This is the git controlled version, adding to verify loop, package is a directory"
+
+directory "/tmp/something" do
+  owner "root"
+  group "root"
+  mode 0755
+  path "/tmp/somethingelse"
+  action :create
+end
+
