@@ -34,7 +34,7 @@ log "This is the value for eor_attrib (#{node[:eor_attrib]})"
 
 log "See the content of node[:platform] is #{node[:platform]}"
 
-
+log "The value with a forward slash in the atttribute name is (#{node[:eor_package_test][:someval]})"
 
 
 rs_utils_marker :end

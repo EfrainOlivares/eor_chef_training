@@ -18,3 +18,8 @@ attribute "eor_attrib",
   :required => "required",
   :recipes => ["eor_package_test::setup_eor_package_test"]
 
+# node[:eor_package_test][:someval]
+attribute "eor_package_test/someval",
+  :display_name => "Grouped Input",
+  :required => "required",
+  :recipes => ["eor_package_test::setup_eor_package_test"]

@@ -17,6 +17,18 @@
       ],
       "display_name": "Just some value",
       "description": "Description of eor_attrib"
+    },
+    "eor_package_test/someval": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "eor_package_test::setup_eor_package_test"
+      ],
+      "display_name": "Grouped Input"
     }
   },
   "license": "All rights reserved",
