@@ -5,6 +5,19 @@
   "name": "eor_package_test",
   "maintainer_email": "efrain@rightscale.com",
   "attributes": {
+    "eor_attrib": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "eor_package_test::setup_eor_package_test"
+      ],
+      "display_name": "Just some value",
+      "description": "Description of eor_attrib"
+    }
   },
   "license": "All rights reserved",
   "suggestions": {

@@ -11,3 +11,10 @@ depends "rs_utils"
 supports "ubuntu"
 
 recipe "eor_package_test::setup_eor_package_test", "Testing out package installation"
+
+attribute "eor_attrib",
+  :display_name => "Just some value",
+  :description => "Description of eor_attrib",
+  :required => "required",
+  :recipes => ["eor_package_test::setup_eor_package_test"]
+

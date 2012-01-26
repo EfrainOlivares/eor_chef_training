@@ -30,6 +30,8 @@ if node[:platform] == 'centos'
     log "This is an ubuntu box"
 end
 
+log "This is the value for eor_attrib (#{node[:eor_attrib]})"
+
 log "See the content of node[:platform] is #{node[:platform]}"
 
 

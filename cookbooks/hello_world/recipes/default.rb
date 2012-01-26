@@ -18,3 +18,4 @@ directory "/tmp/something" do
   action :create
 end
 
+log "add a new change"
